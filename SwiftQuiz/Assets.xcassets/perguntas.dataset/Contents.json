@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "data" : [
     {
+      "filename" : "perguntas.txt",
       "idiom" : "universal"
     }
   ],
