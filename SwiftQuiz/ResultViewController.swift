@@ -17,13 +17,24 @@ class ResultViewController: UIViewController {
     
     @IBOutlet weak var lbScore: UILabel!
     
+    var totalCorrectAnswers: Int = 0
+    var totalAnswers: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        lbAnswered.text = "Perguntas  respondidas: \(totalAnswers)"
+        lbCorrect.text = "Pergntas Corretas: \(totalCorrectAnswers)"
+        lbWrong.text = "Perguntas Erradas: \(totalAnswers - totalCorrectAnswers)"
+        
+        let score = totalCorrectAnswers*100/totalAnswers
+        lbScore.text = "\(score)%"
+        
     }
     
     @IBAction func close(_ sender: Any) {
+        
+        dismiss(animated: true, completion: nil)
     }
     
     

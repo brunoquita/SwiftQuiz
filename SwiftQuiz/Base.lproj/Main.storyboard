@@ -148,7 +148,7 @@
                         <outletCollection property="btAnswers" destination="BT0-3T-yK3" collectionClass="NSMutableArray" id="jf3-rN-xek"/>
                         <outletCollection property="btAnswers" destination="fQ1-6d-ej9" collectionClass="NSMutableArray" id="XRj-G1-FRh"/>
                         <outletCollection property="btAnswers" destination="7mL-us-n4y" collectionClass="NSMutableArray" id="hpB-En-DMx"/>
-                        <segue destination="PL6-eF-a4e" kind="show" id="bpd-Ou-DIc"/>
+                        <segue destination="PL6-eF-a4e" kind="show" identifier="resultSegue" id="bpd-Ou-DIc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TXI-1J-bRp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -217,7 +217,7 @@
                     <connections>
                         <outlet property="lbAnswered" destination="3VU-GT-hCJ" id="syE-JA-HYP"/>
                         <outlet property="lbCorrect" destination="UI1-9h-8Zc" id="0mb-nt-47a"/>
-                        <outlet property="lbScore" destination="P7u-ah-lPv" id="BiN-VH-r42"/>
+                        <outlet property="lbScore" destination="P7u-ah-lPv" id="Y1W-hD-lIt"/>
                         <outlet property="lbWrong" destination="lBR-w8-ZDb" id="mxZ-o5-rsj"/>
                     </connections>
                 </viewController>
